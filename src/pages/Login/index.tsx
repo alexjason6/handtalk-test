@@ -31,7 +31,6 @@ export const Login: React.FC = () => {
 
         <FormGroup error={getErrorMessageByFieldName('login')}>
           <Input
-            testID="email-input"
             placeholder="Digite seu email"
             placeholderTextColor={'#999999'}
             LoginPage
@@ -48,7 +47,6 @@ export const Login: React.FC = () => {
 
         <FormGroup error={getErrorMessageByFieldName('password')}>
           <Input
-            testID="password-input"
             secureTextEntry
             placeholder="Digite sua senha"
             placeholderTextColor={'#999999'}

@@ -6,7 +6,7 @@ import React from 'react';
 import {AppRegistry} from 'react-native';
 import {ThemeProvider} from 'styled-components';
 
-import App from './src/App/App';
+import App from './src/App';
 import { theme } from './src/assets/styles/themes/theme';
 
 import {name as appName} from './app.json';

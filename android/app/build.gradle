@@ -1,5 +1,4 @@
 apply plugin: "com.android.application"
-apply plugin: 'com.google.gms.google-services'
 apply plugin: "org.jetbrains.kotlin.android"
 apply plugin: "com.facebook.react"
 
@@ -78,9 +77,9 @@ android {
     buildToolsVersion rootProject.ext.buildToolsVersion
     compileSdk rootProject.ext.compileSdkVersion
 
-    namespace "br.com.alexjason.handtalk"
+    namespace "com.handtalk"
     defaultConfig {
-        applicationId "br.com.alexjason.handtalk"
+        applicationId "com.handtalk"
         minSdkVersion rootProject.ext.minSdkVersion
         targetSdkVersion rootProject.ext.targetSdkVersion
         versionCode 1
@@ -117,8 +116,6 @@ dependencies {
     } else {
         implementation jscFlavor
     }
-
-  implementation project(':react-native-vector-icons')
 }
 
 project.ext.vectoricons = [

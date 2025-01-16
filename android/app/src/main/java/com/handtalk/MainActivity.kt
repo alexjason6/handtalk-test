@@ -1,6 +1,4 @@
-package br.com.alexjason.handtalk
-//import android.os.Bundle;
-
+package com.handtalk
 import expo.modules.ReactActivityDelegateWrapper
 
 import com.facebook.react.ReactActivity

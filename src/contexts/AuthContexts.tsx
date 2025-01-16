@@ -5,7 +5,7 @@ import React, {
   useEffect,
 } from 'react';
 
-import { firebaseAuth } from '../services/firebase';
+import { firebaseAuth, firebaseApp } from '../services/firebase';
 
 import useToast from '../hooks/useToast';
 import Toast from '../components/Toast';

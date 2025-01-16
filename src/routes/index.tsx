@@ -1,11 +1,11 @@
 import React, {useContext} from 'react';
 
-import AuthContext from '../contexts/AuthContexts';
+import AuthContext from '../contexts/AuthContexts.tsx';
 
-import AuthRoutes from './auth.routes';
-import AppRoutes from './app.routes';
+import AuthRoutes from './auth.routes.tsx';
+import AppRoutes from './app.routes.tsx';
 
-import Loading from '../components/Loading/index';
+import Loading from '../components/Loading/index.tsx';
 
 const Routes: React.FC = () => {
   const {signed, loading} = useContext(AuthContext);
