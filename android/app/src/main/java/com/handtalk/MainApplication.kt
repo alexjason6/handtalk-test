@@ -1,4 +1,4 @@
-package com.handtalk
+package br.com.alexjason.handtalk
 import android.content.res.Configuration
 import expo.modules.ApplicationLifecycleDispatcher
 import expo.modules.ReactNativeHostWrapper

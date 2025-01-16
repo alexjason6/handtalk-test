@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "328832548712",
+    "firebase_url": "https://handtalk-app-c1e0c-default-rtdb.firebaseio.com",
+    "project_id": "handtalk-app-c1e0c",
+    "storage_bucket": "handtalk-app-c1e0c.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:328832548712:android:e77bd6da6d746d7b33a0dd",
+        "android_client_info": {
+          "package_name": "br.com.alexjason.handtalk"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAWX4amqD4SwZipCQajHHZS5Uwua4zeOnM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
